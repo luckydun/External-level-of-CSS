@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Ms text edit</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  </link>
+  </head>
+    <body>
+    <p>Table positioning</p>
+      <table>
+      Horizontal
+      <tr>
+      <td>Position:</td>
+      <td>Relative to:</td>
+      </tr>
+      <tr>
+      <td>
+      <select>
+      <option value="Left">Left
+      <option value="Right">Right
+      </td>
+      <td>
+      <select>
+      <option value="Column">Column
+      <option value="Paragraph">Paragraph
+      </td>
+      </tr>
+      <tr>
+      <td>
+      Vertical
+      </td>
+      </tr>
+      <tr>
+      <td>Position:</td>
+      <td>Relative to:</td>
+      </tr>
+      <tr>
+      <td>
+      <select>
+      <option value="0'">0'
+      <option value="1'">1'
+      </td>
+      <td>
+      <select>
+      <option value="Paragraph">Paragraph
+      <option value="Text">Text
+      </td>
+      </tr>
+      <tr>
+      <td colspan="2">
+      Distance from sorrounding text
+      </td>
+      </tr>
+      <tr>
+      <td>
+      Top:
+      <select>
+      <option value="0'">0'
+      <option value="1'">1''
+      </td>
+      <td>
+      Left:
+      <select>
+      <option value="0.13'">0.13'
+      <option value="0'">Right
+      </td>
+      </tr>
+      <td>
+      Bottom:
+      <select>
+      <option value="0'">0'
+      <option value="7">4
+      </td>
+      <td>
+      Right:
+      <select>
+      <option value="0.13'">0.13'
+      <option value="0'">0'
+      </td>
+      </tr>
+      <tr>
+      <td>
+      Options
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <input type="checkbox" name="Options">Move with text<br>
+      <input type="checkbox" name="Options">Allow overlap
+      </td>
+      </tr>
+      </table>
+    </body>
+</html>
